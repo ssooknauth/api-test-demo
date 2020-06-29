@@ -1,0 +1,16 @@
+image: node:11
+
+stages:
+  - lint
+  - test
+
+linter:
+    stage: lint
+    scipt:
+      - npm run lint-me
+
+api-test:
+  stage: test
+  scipt:
+    - run-test.sh
+  allow_failure: false
