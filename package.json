@@ -1,0 +1,38 @@
+{
+  "name": "package.json",
+  "jest": {
+    "verbose": true,
+    "reporters": [
+      "default",
+      [
+        "jest-html-reporters",
+        {
+          "publicPath": "./reports",
+          "filename": "my-report.html"
+        }
+      ]
+    ]
+  },
+  "version": "1.0.0",
+  "description": "supertest demo",
+  "main": "index.js",
+  "scripts": {
+    "lint-me": "eslint __test__/**/*.js --fix",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^7.3.1",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.21.2",
+    "frisby": "^2.1.2",
+    "mocha": "^6.0.1",
+    "jest": "^26.1.0",
+    "jest-html-reporters": "^2.0.1"
+  },
+  "devDependencies": {
+    "faker": "^4.1.0"
+  }
+}
