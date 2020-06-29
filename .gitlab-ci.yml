@@ -6,11 +6,11 @@ stages:
 
 linter:
     stage: lint
-    scipt:
+    script:
       - npm run lint-me
 
 api-test:
   stage: test
-  scipt:
+  script:
     - run-test.sh
   allow_failure: false
