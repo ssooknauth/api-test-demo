@@ -7,10 +7,12 @@ stages:
 linter:
     stage: lint
     script:
+      - npm install --silent
       - npm run lint-me
 
 api-test:
   stage: test
   script:
+    - npm install --silent
     - run-test.sh
   allow_failure: false
