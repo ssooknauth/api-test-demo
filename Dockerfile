@@ -8,4 +8,4 @@ RUN npm install --silent
 
 COPY . .
 
-CMD sh "run-test.sh"
+CMD sh "scripts/run-test.sh"

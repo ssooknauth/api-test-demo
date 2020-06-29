@@ -14,5 +14,5 @@ api-test:
   stage: test
   script:
     - npm install --silent
-    - run-test.sh
+    - sh scripts/run-test.sh
   allow_failure: false
