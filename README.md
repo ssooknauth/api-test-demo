@@ -13,6 +13,7 @@ The _utils_ directory is where the helpers are to help build the request / test 
 Also, good practice is to lint your code via '`npm run lint-me`'
 
 **Viewing the Test Report**: Once the test has finished (pass or fail) -A report is generated in the _reports_/ directory 
+See _report_sample.png_
 
 
 **How to run these test via Docker**: Must have docker installl before proceeding.
