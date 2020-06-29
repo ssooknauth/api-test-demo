@@ -21,4 +21,5 @@ After docker is already installed. 1) Run "`Docker build -t test-this:latest .`"
 
 
 **A few add-ons:** Parallel test execution - jest does it by default without specifying --runInBand, linting with eslint, reporting, gitlab ci/cd 
+See here: https://gitlab.com/shaisook/api-test-poc/-/pipelines
 
